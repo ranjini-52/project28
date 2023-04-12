@@ -1,0 +1,25 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form1</title>
+    <link rel="stylesheet" href='{% static "css/form.css" %}'>
+</head>
+<body>
+    <center>
+        <form method="get">
+        <h1>This is my First Form</h1>
+        
+        <label for="un">USERNAME:</label>
+        <input type="text" name="username" id="un">
+        <br><br>
+
+        <label for="pwd">PASSWORD:</label>
+        <input type="text" name="password" id="pwd">
+
+        <br><br>
+        <input type="submit" name="submit" id="submit">
+        </form>
+    </center>
+</body>
+</html>
